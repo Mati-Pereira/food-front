@@ -1,9 +1,9 @@
-import InputForm from '../components/InputForm';
+import Signin from '../pages/Signin';
 
 function App() {
   return (
     <div>
-      <InputForm placeholder="Digitando algo" label="teste" />
+      <Signin />
     </div>
   );
 }

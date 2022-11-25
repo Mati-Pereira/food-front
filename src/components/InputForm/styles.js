@@ -6,6 +6,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     color: ${({ theme }) => theme.colors.label};
+    font-size: 1rem;
     input {
       border: 1px solid ${({ theme }) => theme.colors.white};
       border-radius: 8px;
