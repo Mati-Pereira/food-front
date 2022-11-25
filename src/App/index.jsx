@@ -1,5 +1,11 @@
+import InputForm from '../components/InputForm';
+
 function App() {
-  return <h1>App</h1>;
+  return (
+    <div>
+      <InputForm placeholder="Digitando algo" label="teste" />
+    </div>
+  );
 }
 
 export default App;
