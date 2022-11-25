@@ -9,8 +9,13 @@ function Signin() {
     <Container>
       <Logo />
       <Content>
-        <h1>Faça login</h1>
+        <h1>Crie sua conta</h1>
         <Form>
+          <Input
+            label="Seu nome"
+            placeholder="Exemplo: Maria da Silva"
+            type="text"
+          />
           <Input
             label="Email"
             placeholder="Exemplo: exemplo@exemplo.com.br"
@@ -18,12 +23,12 @@ function Signin() {
           />
           <Input
             label="Senha"
-            placeholder="Exemplo: exemplo@exemplo.com.br"
+            placeholder="No mínimo 6 caracteres"
             type="password"
           />
           <Button text="Entrar" />
         </Form>
-        <a href="#">Criar uma conta</a>
+        <a href="#">Já tenho uma conta</a>
       </Content>
     </Container>
   );

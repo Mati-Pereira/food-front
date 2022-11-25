@@ -10,6 +10,7 @@ export const Container = styled.button`
   justify-content: center;
   gap: 1px;
   width: 100%;
+  cursor: pointer;
   > span {
     font-family: ${({ theme }) => theme.fonts.title};
     font-size: 14px;

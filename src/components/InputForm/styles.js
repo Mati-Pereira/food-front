@@ -5,6 +5,7 @@ export const Container = styled.div`
   > label {
     display: flex;
     flex-direction: column;
+    gap: 8px;
     color: ${({ theme }) => theme.colors.label};
     font-size: 1rem;
     input {
@@ -12,6 +13,7 @@ export const Container = styled.div`
       border-radius: 8px;
       padding: 16px 14px;
       background: transparent;
+      color: ${({ theme }) => theme.colors.placeholder};
       font-size: 1rem;
       &::placeholder {
         color: ${({ theme }) => theme.colors.placeholder};
